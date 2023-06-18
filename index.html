@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>kodomotachi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+      h1 {font-family: 'Noto Sans JP', sans-serif;}
+      body, p, span, div {font-family: 'Archivo Black', sans-serif;}
+      pre.my-font {font-family: 'Archivo Black', sans-serif;}
+      .btn-instagram {
+       color: #fff;
+       background-color: hotpink;
+       border-color: hotpink;}
+      .btn-instagram:hover, .btn-instagram:focus, .btn-instagram:active, .btn-instagram.active {
+       color: #fff;
+       background-color:#ff0080;}
+    </style>
+    
+  </head>
+  <body> 
+    <header class="vh-100 text-black d-flex flex-column justify-content-center align-items-center">
+      <h1 class="display-3 fw-bold mb-5">こどもたち</h1>
+      <h4 class="fs-2 mb-3">이 주의 단어 퀴즈</h4>
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <button id="button1" type="button" class="btn btn-outline-danger rounded-pill">초급단어</button>
+        <button id="button2" type="button" class="btn btn-outline-danger rounded-pill mt-3">중급단어</button>
+        <button id="button3" type="button" class="btn btn-outline-danger rounded-pill mt-3">고급단어</button>
+        <button id="button4" type="button" class="btn btn-outline-danger rounded-pill mt-3">실전단어</button>
+      </div>
+      <!-- SNS 섹션 시작 -->
+    <section class="container py-5" id="sns-links">
+      <div class="container text-center text-black">
+        <p>contact</p>
+        <div class="d-flex justify-content-evenly px-5 mt-4 w-50 m-auto">
+        <a href="https://www.instagram.com/" class="btn btn-instagram rounded-pill btn-lg mx-2"><i class="bi bi-instagram"></i></a>
+        <a href="https://ko-kr.facebook.com/" class="btn btn-primary rounded-pill btn-lg mx-2"><i class="bi bi-facebook"></i></a>
+        <a href="https://mail.naver.com/" class="btn btn-success rounded-pill btn-lg mx-2"><i class="bi bi-envelope"></i></a>
+      </div>
+    </section>
+    <!-- SNS 섹션 끝 -->
+    </header>       
+    <script>
+      // 버튼 클릭 시 해당 페이지로 이동
+      document.getElementById('button1').addEventListener('click', function() {
+        window.location.href = "kodomo1.html";
+      });
+
+      document.getElementById('button2').addEventListener('click', function() {
+        window.location.href = "kodomo2.html";
+      });
+
+      document.getElementById('button3').addEventListener('click', function() {
+        window.location.href = "kodomo3.html";
+      });
+
+      document.getElementById('button4').addEventListener('click', function() {
+        window.location.href = "kodomo4.html";
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!--두 번째 페이지 시작-->
+    <section class="container py-5" id="mainpagetwo">
+  <div class="row justify-content-center align-items-center mb-5">
+  <div class="col-md-6">
+    <img class="img-fluid" src="slamdunk.jpg" alt="slamdunk">
+  </div>
+  <div class="col-md-10 col-lg-6 px-lg-5">
+    <div class="text-center py-5">
+      <h2 class="fw-bold">about</h2>
+    </div>
+    <pre class=" my-font lh-lg" style="white-space: pre-line;">
+      새롭게 만들어진 웹페이지를 소개해 드리겠습니다!
+      일본어 학습자들을 위한 JLPT 학습을 돕기 위해 만들어진 저희 웹페이지를 소개합니다. 
+      이 웹페이지는 JLPT (일본어능력시험) 학습에 관심이 있는 분들을 위해 다양한 학습 도구와 자료를 제공합니다.
+      저희 웹페이지는 JLPT의 각 레벨에 따른 어휘, 독해 등 핵심 영역을 다루는 학습 자료를 제공합니다. 
+      또한, 웹페이지에는 실시간 모의고사를 통해 JLPT 시험 상황을 경험할 수 있는 기회를 제공합니다. 
+      학습자들은 실제 시험과 유사한 문제들을 풀어보고 시험에 대한 자신감을 키울 수 있습니다. 
+      세부적인 피드백과 성적 분석을 통해 약점을 파악하고 개선할 수 있습니다.
+      학습자들은 여기서 서로의 경험을 공유하고 동기부여를 받을 수 있습니다.
+      우리의 목표는 JLPT 학습자들이 효과적이고 효율적인 학습 경험을 할 수 있도록 도와주는 것입니다. 
+      학습자들이 목표한 JLPT 레벨을 달성하고 일본어 실력을 향상시킬 수 있길 기대합니다!
+    </section>
+      <!--두 번째 페이지 끝-->
+    <!--세 번째 페이지 시작-->
+    <pre class="text-center mt-5" style="font-size: 27px;">JLPT 모의고사를 풀어보려면 좌측 이미지를, 
+      기출 단어장을 보고 싶다면 우측 이미지를 클릭하세요!</pre>
+    <section class="container py-5" id="mainpagethree">
+      <div class="row justify-content-center align-items-center mb-5">
+        <div class="col-md-8">
+          <a href="actual_test.html">
+            <img class="img-fluid" src="song.jpg" alt="song">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="word_list.html">
+            <img class="img-fluid" src="seoNkang.jpg" alt="seoNkang">
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--세 번째 페이지 끝-->   
+  </body>
+</html>
